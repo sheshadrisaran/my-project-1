@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0de037;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #41d219;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    color: #f8f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+
+    background-color: #555;
+}
+
+main {
+    background-image: url(https://th.bing.com/th/id/OIP._baxGyf6Vq05ZvF8SdQq4wAAAA?pid=ImgDet&rs=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #a2f4b3;
+    padding: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.seed-card {
+    width: 300px;
+    background-color: #ebf5cf;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.seed-card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.seed-card h3 {
+    color: #555; 
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.seed-card p {
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
